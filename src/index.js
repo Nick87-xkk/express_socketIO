@@ -15,7 +15,7 @@ io.on('connection', (socket)=>{
 });
 
 
-io.on('connection', function(socket){
+io.on('connection', function(socket){cd 
     console.log('a user connected');
     socket.on('disconnect', function(){
         console.log('------------user disconnected-------------');
